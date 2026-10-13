@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="377b282af7d240aeb31ac2aac59aa91e" Name="Diagram1">
+        <EntityTypeShape EntityType="MyStore2Model.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStore2Model.Customer" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStore2Model.Order" Width="1.5" PointX="8.125" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStore2Model.OrderDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStore2Model.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MyStore2Model.User" Width="1.5" PointX="13.125" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="MyStore2Model.FK_Pro_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="MyStore2Model.FK__Order__CustomerI__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="MyStore2Model.FK_User_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="MyStore2Model.FK__OrderDeta__Order__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="MyStore2Model.FK__OrderDeta__Produ__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
